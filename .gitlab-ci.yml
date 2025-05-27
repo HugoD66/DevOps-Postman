@@ -4,8 +4,6 @@ stages:
 api_test:
   stage: test
   image: node:20
-  services:
-    - name: node:20
   before_script:
     - apt-get update && apt-get install -y curl
     - npm install -g newman
@@ -14,4 +12,3 @@ api_test:
     - node src/app.js &
     - sleep 2
     - newman run ./tests/TP.postman_collection.json
-x
