@@ -26,11 +26,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/status",
+					"raw": "{{URL_APP}}/status",
 					"host": [
-						"localhost"
+						"{{URL_APP}}"
 					],
-					"port": "3000",
 					"path": [
 						"status"
 					]
@@ -58,11 +57,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/test",
+					"raw": "{{URL_APP}}/test",
 					"host": [
-						"localhost"
+						"{{URL_APP}}"
 					],
-					"port": "3000",
 					"path": [
 						"test"
 					]
@@ -90,11 +88,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/city",
+					"raw": "{{URL_APP}}/city",
 					"host": [
-						"localhost"
+						"{{URL_APP}}"
 					],
-					"port": "3000",
 					"path": [
 						"city"
 					]
